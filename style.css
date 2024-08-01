@@ -1,0 +1,164 @@
+body{
+    background-color: aliceblue;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 110px 3px 110px;
+}
+.section-1{
+    padding-bottom: 200px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    list-style: none;
+}
+.ecritur{
+    padding-bottom: 100px;
+}
+#bleu{
+    color:rgb(7, 7, 100);
+    font-size: 50px;
+}
+#orange{
+    color:orange;
+    font-size: 50px;
+}
+.video-1{
+    display: flex;
+justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+.video-2{
+    display: flex;
+justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 50pxpx;
+}
+#ttd{
+    font-size: 20px;
+    font-family: bold;
+}
+.bloc{
+    display: grid;
+    place-content: center;
+    gap:20px;
+}
+
+.bloc-1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap:20px;
+    position: relative;
+}
+.bloc-droit-1{
+    padding: 10px;
+    background: #FAFAFA;
+    width: 628px;
+    height: 402px;
+   
+}
+.bloc-gauch-2{
+    padding: 10px;
+    background: #FAFAFA;
+    width: auto;
+    height: 402px;
+} 
+.bloc-2{
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap:20px;
+    position: relative;
+}
+.section-2{
+    margin-bottom: 100px;
+}
+.bloc-gauch-3{
+    padding: 10px;
+    background: #FAFAFA;
+    width: auto;
+    height: 402px;
+}
+.bloc-droit-4{
+    padding: 10px;
+    background: #FAFAFA;
+    width: 628px;
+    height: 402px;
+}
+#para-left{
+    position: absolute;
+    bottom: -3%;
+}
+#imag-2{
+    width: max-content;
+}
+#imag-1{
+    width: 443px;
+    height: 297px;
+}
+
+#para{
+    position: absolute;
+    bottom: -3%;
+}
+#para-0{
+    position: absolute;
+    bottom: 5%; 
+}
+.section-3{
+    background: #FAFAFA;
+    border: 2px solid red;
+}
+.titl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.secte-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap:20px;
+    
+
+}
+.accordion {
+    background-color: #eee;
+    cursor: pointer;
+    padding: 18px;
+    width: 392px;
+    height: 24px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    position: absolute;
+  }
+.blok-1{
+    position: relative;
+    display: grid;
+    place-content: center;
+    gap:100px;
+    width: 1000px;
+    height: 600px;
+}
+
+  .active {
+    background-color: #ccc;
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+  }
+

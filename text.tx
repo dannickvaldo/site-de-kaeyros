@@ -1,0 +1,31 @@
+ <div class="bloc-1">
+                <img id="imag" src="image/bloc-1.jpg" >
+                <p>
+                    <span id="ttd">Transformation métier</span> <br>les outils informatiques pour réinventer la <br>proposition de valeur des solutions de gestion, de <br>reporting ou encore de suivi en entreprise
+                </p>
+            </div>
+
+
+            <div class="bloc-2 para">
+                <img id="imag" src="image/bloc-2.jpg" >
+                <p>                
+                    <span id="ttd">Aide à la prise de décision</span> <br>Permettre aux entreprises de prendre de meilleures<br> décisions et de moderniser leurs processus pour<br> une gestion optimale.
+                </p>
+            </div>
+
+
+            <div class="bloc-3 para">
+                <img id="imag" src="image/bloc-3.jpg" >
+                <p>
+                    <span id="ttd" >Expérience digitale</span><br>Créer une expérience en ligne pour la vente, la<br> prise de commandes et les rendez-vous afin <br>d'optimiser le parcours client et le suivi des <br>affaires.Feedback Collection and Analysis
+                </p>
+            </div>
+
+
+            <div class="bloc-4">
+                <img id="imag" src="image/bloc-4.jpg" >
+                <p>
+                    <span id="ttd" >Intelligence Artificielle</span><br>Stimuler l’adaptabilité, la résilience et la compétitivité <br>en aidant nos clients à se transformer avec succès <br>pour construire un avenir meilleur
+                </p>
+            </div>
+        </div>
