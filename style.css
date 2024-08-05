@@ -1,12 +1,20 @@
 body {
     font-family: sans-serif;
     margin: 0;
-    padding: 100px;
+    padding: 0px 100px 0px 100px;
+    margin-top: 200px;
   }
-header{
+  .contener-fix{
+    position: fixed;
+    z-index: 10;
+    top:0;
+    left: 0;
+    width: 100%;
+  }
+.heade-0{
     display: flex;
     justify-content: space-between;
-    padding: 3px 110px 3px 110px;
+    padding: 0px 100px 100px 100px;
 }
 .section-1{
     padding-bottom: 200px;
@@ -14,14 +22,18 @@ header{
 ul{
     display: flex;
     justify-content: space-between;
-    gap: 20px; 
+    gap: 40px; 
     list-style: none;
+}
+li:hover{
+    cursor: pointer;
+    color: #dd5b10;
 }
 .ecritur{
     padding-bottom: 100px;
 }
 #bleu{
-    color:#364DAA;
+    color:#05208f;
     font-size: 50px;
 }
 #orange{
@@ -57,6 +69,10 @@ justify-content: space-between;
     gap:20px;
     position: relative;
 }
+#buttton{
+    background-color: none;
+
+}
 .bloc-droit-1{
     padding: 10px;
     background: #FAFAFA;
@@ -85,6 +101,9 @@ justify-content: space-between;
     background: #FAFAFA;
     width: auto;
     height: 402px;
+}
+#button{
+    font-family: 500px;
 }
 .bloc-droit-4{
     padding: 10px;
@@ -205,15 +224,127 @@ justify-content: space-between;
 }
 .section-5{
     position: relative;
+    margin-bottom: 100px;
 }
-.secte-5{
-    width: 1280px;
-    height: 371px;
-    Top: 4637px;
-}
-.parag{
-    position: absolute;   
-    /* display: flex; */
+
+#header-1{
+    background-repeat: no-repeat;
+    position:relative;
+    margin: 0px;
+    background-image: url(image/rect.jpg);
+    Width:1880px;
+    Height:500px;
+    background-size: cover;
+    left: -7%;
+    position: absolute;
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+.parag{
+    Width:100%;
+    Height:371px;
+}
+#titre{
+    color:#FAFAFA;
+    font-size: 300%;
+}
+#p-button{
+    color:#364DAA;
+    Width:100px;
+    Height:100px;
+}
+#pp-button{
+    Width:300px;
+    Height:60px;
+    border-radius: 5px;
+    background-color: white;
+}
+.section-6{
+    padding: 500px 50px 100px 50px;
+}
+.bloguer{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.bloogg{
+    gap:20px
+}
+.bloog{
+    Width:500px;
+    Height:350px;
+}
+#blou{
+    color:#364DAA;
+}
+#dri{
+    color: gray;
+}
+.secte-6{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 0px 0px;
+}
+#secte-61{
+    font-size: 200%;
+}
+.section-7{
+    position: relative;
+    margin: 0px;
+}
+footer{
+    background-color: #010825;
+    padding: 80px 80px 80px 80px;
+    gap: 30px;
+    width: 1720px;
+    position: absolute;
+    left: -7%;
+    
+}
+#logo-0{
+    width: 163px;
+    height: 137.31px;
+}
+#lign{
+    padding: 80px 0px 80px 0px;
+    color: white;
+}
+.footer-1{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+}
+.blan-1{
+    font-size: 200%;
+    color: white;
+}
+.blan{
+    color: white;
+}
+.footer-2{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-21{
+    display: flex;
+    justify-content: space-between;
+    gap:150px
+}
+.footer-3{
+    padding: 80px 0px 0px 750px;
+}
+#orang{
+    color: #ff5f00;
+    text-decoration: underline;
+}
+#buttun-1{
+    Width:200px;
+    Height:50px;
+    background-color: white;
+    border-radius: 5px;
+}
+#contact{
+    font-size: 20px;
+    color:#364DAA;
 }
