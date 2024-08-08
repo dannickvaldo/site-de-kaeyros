@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="back">
     <header class="header-0">
         <div class="contener-fix">
             <div class="heade-0">
@@ -15,11 +16,21 @@
                 <div class="">
                     <nav>
                         <ul>
-                            <li>Produit<img src="image/arrow.jpg" style="color: rgb(250, 165, 7);"></li>
-                            <li>A propos</li>
-                            <li>Bloc</li>
-                            <li>Carriere</li>
-                            <li>Contacter nous</li>
+                            <li class="dropdown">
+                                <a href="produit.html">Produit<img src="image/arrow.jpg"></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="SEMA.html">SEMA</a></li>
+                                    <li><a href="produit/SWIVY.html">SWIVY</a></li>
+                                    <li><a href="produit/AIR-O.html">AIR-O</a></li>
+                                    <li><a href="produit/K-SHAP.html">K-SHAP</a></li>
+                                    <li><a href="produit/INVY.html">INVY</a></li>
+                                    <li><a href="produit/VAANAH.html">VAANAH</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="propos.html">A propos</a></li>
+                            <li><a href="Bloc.html">Bloc</a></li>
+                            <li><a href="Carriere.html">Carriere</a></li>
+                            <li><a href="Contacter.html">Contacter nous</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -30,7 +41,6 @@
         <div class="ecritur">
             <center>
                 <p><span id="bleu">We Provide</span><br><span id="orange">Data Driven Solutions</span></p>
-                <p></p>
                 <p>Kaeyros Analytics est une société de conseil basée en Allemagne et au Cameroun qui vous accompagne sur tous
                     <br>les sujets autour de l’analyse et la manipulation de données. Nous sommes une équipe d’experts en Data Science,
                     <br> en Développement Informatique et en Analyse de Données, pour vous servir.</p>
@@ -41,12 +51,14 @@
             <div class="blanc-dri"><img src="image/blanc-dri.png"></div>
             <div class="noir"><img src="image/noir.png"></div>
         </div>
+</div>
         <div class="video-2">
             <div class="blanc-dri"><img src="image/blanc-dri.png"></div>
             <div class="blanc"><img src="/image/blanc.png"></div>
             <div class="noir"><img src="image/noir.png"></div>
 
         </div>
+    
         <div class="buttun-0">
             <center><span id="buttton">En savoir plus </span><img src="image/flech.jpg"></center>
         </div>
@@ -65,7 +77,7 @@
                     <p id="para-left">
                         <span id="ttd">Transformation métier</span> <br>les outils informatiques pour réinventer la <br>proposition de valeur des solutions de gestion, de <br>reporting ou encore de suivi en entreprise
                     </p>
-                </div>
+               </div>
 
                 <div class="bloc-gauch-2">
                     <img id="imag-2" src="image/bloc-2.jpg" >
@@ -178,7 +190,7 @@
                 <div class="parag">
                     <p>
                         <h1><span id="titre"><center>Kaeyros Analytics dans le temps</center></span></h1><br><br><br>
-                        <center><button id="pp-button"><span id="p-button">Découvrez notre histoire</span></button></center>
+                        <center><div class="couleur"><button id="pp-button"><span id="p-button">Découvrez notre histoire</span></button></div></center>
                    </p>
                 </div>
             </header>

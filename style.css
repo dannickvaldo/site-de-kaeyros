@@ -1,8 +1,20 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi_Complete/Fonts/TTF/Satoshi-Variable.ttf') format(ttf);
+}
+.back{
+    background-image: url(image/pattern.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 body {
-    font-family: sans-serif;
     margin: 0;
-    padding: 0px 100px 0px 100px;
-    margin-top: 200px;
+    margin-top: 300px;
+    font-family: 'Satoshi-Variable', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
   }
   .contener-fix{
     position: fixed;
@@ -10,6 +22,8 @@ body {
     top:0;
     left: 0;
     width: 100%;
+    background-image: url(image/pattern.png);
+
   }
 .heade-0{
     display: flex;
@@ -25,9 +39,12 @@ ul{
     gap: 40px; 
     list-style: none;
 }
-li:hover{
+a:hover{
+    text-decoration: none;
+    list-style: none;
     cursor: pointer;
     color: #dd5b10;
+
 }
 .ecritur{
     padding-bottom: 100px;
@@ -42,16 +59,29 @@ li:hover{
 }
 .video-1{
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
     gap: 20px;
-    padding-bottom: 100px;
+    animation: scrollLeft 10s linear infinite;
+    margin-bottom: 70px;
 }
 .video-2{
     display: flex;
 justify-content: space-between;
     gap: 20px;
     padding-bottom: 50pxpx;
+    animation: scrollRight 10s linear infinite;
+    margin-bottom: 50px;
 }
+
+/* @keyframes scrollLeft {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-20%); }
+}
+
+@keyframes scrollRight {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(20%); }
+} */
 #ttd{
     font-size: 20px;
     font-family: bold;
@@ -211,6 +241,8 @@ justify-content: space-between;
     display: flex;
     justify-content: space-between;
     gap: 0px;
+    animation: scrollRight 10s linear infinite;
+
 }
 .section-4{
     margin-bottom: 100px;
@@ -266,7 +298,7 @@ justify-content: space-between;
 .bloguer{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
 }
 .bloogg{
     gap:20px
@@ -332,7 +364,7 @@ footer{
     gap:150px
 }
 .footer-3{
-    padding: 80px 0px 0px 750px;
+    padding: 80px 0px 0px 1000px;
 }
 #orang{
     color: #ff5f00;
@@ -347,4 +379,275 @@ footer{
 #contact{
     font-size: 20px;
     color:#364DAA;
+}
+
+
+/* Menu déroulant */
+.dropdown-menu {
+    display: none; /* Caché par défaut */
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 150px;
+    padding: 10px 0;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+/* ---------------------------------------------------------------page produits---------------------------------------------------------------------------- */
+.sec-1{
+    width: 50%;
+}
+.sec-2{
+    width: 50%;
+}
+.sect-2{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    margin-bottom: 200px;
+    border: white 3px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+#delaa{
+    width: 800px;
+}
+.secte-6{
+    padding: 0px 0px 0px 50px;
+}
+#mode{
+    font-size: 30px;
+    font-family: bold;
+}
+.sec-2{
+    margin: 0px;
+}
+#but{
+    width: 200px;
+    height: 50px;
+}
+.cect-1{
+    padding-bottom: 100px;
+}
+.sect-2{
+    margin-bottom: 200px;
+}
+.sect-3{
+    margin-bottom: 200px;
+}
+.sec-3{
+    display: flex;
+    justify-content: space-betweenue;
+    gap: 20px;
+}
+#text{
+    left: 200%;
+    /* background-color: #010825; */
+}
+.texte{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+}
+
+.sup{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+#rouge{
+    color: red;
+    font-size: 30px;
+}
+#grp{
+    font-size: 20px;
+}
+#icne{
+    display: flex;
+    align-items: center;
+}
+#dela{
+    width: 800px;
+    height: 500px;
+}
+#butt{
+    width: 150px;
+    height: 50px;
+}
+.sect-4{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    margin-bottom: 200px;
+
+}
+.sect-2:hover{
+
+    border-color:  #ff5f00;
+    box-shadow: 0 0 10px  #ff5f00;
+}
+.limag2{
+    transition: transform 0.3s ease,filter 0.3s ease;
+   
+
+}
+
+.limag2:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+}
+.limage{
+    position: relative;
+    overflow: hidden;
+}
+/* -------------------------------------------sema.html.......................................................................... */
+
+
+
+
+.container4 {
+    display: flex;
+    width: 90%;
+    height: 15cm;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-block, .upper-block, .lower-block {
+    padding: 5px;
+}
+
+.left-block {
+    flex: 1;
+    padding-left: 130px;
+}
+
+.right-block {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.upper-block {
+    flex: 4;
+}
+
+.lower-block {
+    flex: 6;
+}
+
+
+.link1 {
+    margin-top: 10px;
+    text-decoration: none;
+    color:rgb(63, 63, 151);
+    font-size: 19px;
+    padding-top: 18px;
+    padding-bottom: 60px;
+    display: inline-block;
+}
+
+.link2 {
+    margin-top: 10px;
+    text-decoration: none;
+    color:rgb(64, 64, 168);
+    font-size: 19px;
+    padding-top: 18px;
+    padding-bottom: 130px;
+    padding-left: 310px;
+    display: inline-block;
+}
+
+.link1,.link2:hover {
+    text-decoration: underline;
+}
+
+
+
+.container5 {
+    display: flex;
+    width: 80%;
+    height: 8cm;
+    padding-left: 200px;
+    padding-top: 100px;
+
+}    
+
+.left-part, .right-part {
+    flex: 1;
+}
+
+.left-part img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-right: 50px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
+.right-part {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 40px;
+    margin-top: -15px;
+}
+
+.right-part h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: start;
+    font-size: 25px;
+}
+
+.right-part h2 {
+    margin-bottom: 10px;
+    text-align: start;
+    color:  rgb(100, 100, 126);;
+}
+
+.phrases {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: rgb(100, 100, 126);
+ 
+    font-size: 16px;
+}
+
+.phrase {
+    display: flex;
+    align-items: center;
+}
+
+.check-mark {
+    font-size: 28px;
+    margin-right: 18px;
+    margin-bottom: 15px;
+    color: rgb(100, 100, 126);
+}
+
+.phrase p {
+    line-height: 1.4;
 }
