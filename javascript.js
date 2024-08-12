@@ -11,3 +11,9 @@ accordions.forEach(accordion => {
     }
   });
 });
+const image = document.getElementById('image');
+const menu = document.getElementById('menu');
+
+image.addEventListener('click', () => {
+  menu.style.display = 'block';
+});

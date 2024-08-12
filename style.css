@@ -38,7 +38,7 @@ body {
 
   }
 .heade-0{
-    padding: 0px 100px 100px 100px;
+    /* padding: 0px 100px 100px 100px; */
     max-width: 1700px;
 }
 
@@ -635,6 +635,7 @@ footer{
     text-align: center;
     margin:auto;
 }
+
 /* --------------------------------------------media querie-------------------------------------------------------------------- */
     
  @media screen and (min-width:500px) { 
@@ -694,8 +695,17 @@ footer{
     justify-content: space-between;
     gap:125px
 }
+.main-container{
+    max-width: 1500px;
+    padding: 5px 5px 5px 5px;
+}
     
 }  
+@media screen and (max-width:500px){
+    .dan{
+        display: none !important;
+    }
+}
 
     .max{
         max-width: 100%;
@@ -703,5 +713,30 @@ footer{
     .deuxx{
         height: 20px;
     }
+/* -----------------------------------------------menu iporrtant----------------------------- */
 
+
+.menu-container {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    display: none;
+  }
+
+  .menu-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .menu-container li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .menu-container a {
+    text-decoration: none;
+    color: #000;
+  }
 
