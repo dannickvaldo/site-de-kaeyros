@@ -11,9 +11,13 @@ accordions.forEach(accordion => {
     }
   });
 });
-const image = document.getElementById('image');
-const menu = document.getElementById('menu');
+// const image = document.getElementById('image');
+// const menu = document.getElementById('menu');
 
-image.addEventListener('click', () => {
-  menu.style.display = 'block';
-});
+// image.addEventListener('click', () => {
+//   if (menu.style.display === 'block') {
+//     menu.style.display = 'none';
+//   } else {
+//     menu.style.display = 'block';
+//   }
+// });

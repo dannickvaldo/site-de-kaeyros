@@ -355,11 +355,6 @@ footer{
     justify-content: space-between;
     gap: 30px
 }
-
-.footer-31 {
-    text-align: end;
-}
-
 #orang{
     color: #ff5f00;
     text-decoration: underline;
@@ -377,6 +372,10 @@ footer{
 
 
 /* Menu déroulant */
+
+.dropdown{
+    position: relative;
+}
 .dropdown-menu {
     display: none; /* Caché par défaut */
     left: 0;
@@ -384,12 +383,8 @@ footer{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     width: 150px;
-    padding: 10px 0;
-}
-
-.dropdown-menu li {
     padding: 10px;
-    border-bottom: 1px solid #eee;
+    position: absolute;
 }
 
 .dropdown-menu li:last-child {
@@ -404,6 +399,40 @@ footer{
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+
+/* Menu déroulant  1 */
+
+.dropdow{
+    position: relative;
+}
+
+.dropdow-menu {
+    display: none; /* Caché par défaut */
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px 0;
+    position: absolute;
+}
+
+.dropdow-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdow-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdow-menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdow:hover .dropdow-menu {
+    display: block;
+}
+
 /* ---------------------------------------------------------------page produits---------------------------------------------------------------------------- */
 
 .sect-2{
@@ -501,6 +530,7 @@ footer{
 /* -------------------------------------------sema.html.......................................................................... */
 
 .sect1{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -631,7 +661,9 @@ footer{
     font-family: 'Satoshi-Variable';
 }
 
-.titree div p{
+.titree div h1{
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin:auto;
 }
@@ -665,17 +697,7 @@ footer{
     gap:20px;
     margin-bottom: 200px;
     border: white 3px;
-    border: 2px solid yellow;
    }
-
-   .sec-1 {
-    border: 2px solid yellow;
-   }
-
-   .sec-2 {
-    border: 2px solid green;
-   }
-
    #icne{
     display: flex;
     align-items: center;
@@ -699,12 +721,58 @@ footer{
     max-width: 1500px;
     padding: 5px 5px 5px 5px;
 }
+.menr{
+    display: none;
+}
+.footer-31 {
+    text-align: end;
+}
     
 }  
 @media screen and (max-width:500px){
     .dan{
         display: none !important;
     }
+    .heade-0{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 60px 0px 50px;
+        font-family: "satoshi-variable";
+    }
+    #image{
+        width: 50px;
+        height: 50px;
+    }
+    .main-container{
+        padding: 50px 25px 0px 25px;
+    }
+    body {
+        margin: 0;
+        padding: 0px 0px 0px 0px;
+        margin-top: 100px;
+        font-family: 'Satoshi-Variable', sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+      }
+      #icne{
+        display: flex;
+        align-items: center;
+    }
+    .left-block{
+        margin-bottom: 10px;
+    }
+    .deuxx{
+        margin-bottom: 30px;
+    }
+    .dessu{
+        margin-bottom:50px;
+    }
+
+
+
+
+
 }
 
     .max{
@@ -713,30 +781,5 @@ footer{
     .deuxx{
         height: 20px;
     }
-/* -----------------------------------------------menu iporrtant----------------------------- */
-
-
-.menu-container {
-    width: 100%;
-    background-color: #fff;
-    padding: 10px;
-    display: none;
-  }
-
-  .menu-container ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-
-  .menu-container li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-
-  .menu-container a {
-    text-decoration: none;
-    color: #000;
-  }
+  
 
